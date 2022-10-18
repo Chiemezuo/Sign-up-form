@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.background-image {
+  background-color: black;
+  width: 40%;
+  height: 100%;
+}
