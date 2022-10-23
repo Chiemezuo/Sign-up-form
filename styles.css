@@ -29,15 +29,60 @@
   height: 100%;
 }
 
+
+.inputs {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 form {
   height: 80%;
   width: 100%;
 }
 
-.inputs {
-  height: 65%;
-}
-
 .submit {
   height: 35%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li {
+  margin-bottom: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-right: 10%;
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+.list-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+form li {
+  display: flex;
+  flex-direction: column;
 }
