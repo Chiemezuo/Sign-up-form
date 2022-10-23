@@ -75,6 +75,8 @@ input {
 
   /* Match form field borders */
   border: 1px solid #999;
+  width: 80%;
+  height: 2em;
 }
 
 .list-items {
