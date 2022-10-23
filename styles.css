@@ -13,7 +13,6 @@
 }
 
 .background-image {
-  background-color: black;
   width: 40%;
   height: 100%;
 }
@@ -33,15 +32,12 @@
 form {
   height: 80%;
   width: 100%;
-  background-color: blue;
 }
 
 .inputs {
   height: 65%;
-  background-color: azure;
 }
 
 .submit {
   height: 35%;
-  background-color: yellow;
 }
